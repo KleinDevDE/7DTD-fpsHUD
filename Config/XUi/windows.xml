@@ -62,10 +62,10 @@
             <sprite depth="0" name="background" color="0,0,0,180" pos="-37,15" size="455, 50" globalopacitymod="0" type="sliced" />
             <!--marker for custom compass-->
             <texture name="fpsHUDcompassMarker" depth="5" pos="170,15" size="42,64"
-                     texture="@https://raw.githubusercontent.com/lloan/7DTD-fpsHUD/master/Textures/ui_hud_compass_marker.png"
+                     texture="@https://raw.githubusercontent.com/KleinDevDE/7dtd-fpsHUD/master/Textures/ui_hud_compass_marker.png"
                      color="[darkGrey]"/>
             <!--custom compass texture-->
-            <texture name="compassTexture" depth="4" pos="0,5" size="380,30" texture="@https://raw.githubusercontent.com/lloan/7DTD-fpsHUD/master/Textures/ui_game_compass.png" tooltip="Navigation" rect_size="0.25,1" rect_offset=".8,0"/>
+            <texture name="compassTexture" depth="4" pos="0,5" size="380,30" texture="@https://raw.githubusercontent.com/KleinDevDE/7dtd-fpsHUD/master/Textures/ui_game_compass.png" tooltip="Navigation" rect_size="0.25,1" rect_offset=".8,0"/>
 
         </window>
     </append>
@@ -115,7 +115,7 @@
                     <filledsprite name="BarContent" depth="5" pos="11,-3" size="140,20" atlas="uiAtlas" type="filled"
                                   fill="0" color="[hudElementsStealth]"/>
                     <texture name="Icon" depth="7" pos="-17,-2" size="20,20"
-                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_stealth_icon.png"
+                             texture=Textures/survivorHUD_hud_stats_stealth_icon.png"
                              color="[hudElementsIcon]" foregroundlayer="true"/>
                     <label name="TextContent" depth="7" pos="-5,-4" text="{statcurrent}" font_size="16"
                            color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1"
@@ -133,7 +133,7 @@
                         <filledsprite name="BarContent" depth="5" pos="66,-10" size="140,24" atlas="uiAtlas" type="filled"
                                       fill="0" color="[hudElementsHealth]"/>
                         <texture name="Icon" depth="7" pos="37,-12" size="22,22"
-                                 texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_health_icon.png"
+                                 texture="@https://raw.githubusercontent.com/KleinDevDE/7dtd-fpsHUD/master/Textures/survivorHUD_hud_stats_health_icon.png"
                                  color="[hudElementsIcon]" foregroundlayer="true"/>
                         <label name="TextContent" depth="7" pos="50,-14" text="{statcurrentwithmax}" font_size="16"
                                color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1"
@@ -148,7 +148,7 @@
                         <filledsprite name="BarContent" depth="5" pos="66,-10" size="140,24" atlas="uiAtlas" type="filled"
                                       fill="0" color="[hudElementsStamina]"/>
                         <texture name="Icon" depth="7" pos="37,-12" size="22,22"
-                                 texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_stamina_icon.png"
+                                 texture="@https://raw.githubusercontent.com/KleinDevDE/7dtd-fpsHUD/master/Textures/survivorHUD_hud_stats_stamina_icon.png"
                                  color="[hudElementsIcon]" foregroundlayer="true"/>
                         <label name="TextContent" depth="7" pos="50,-14" text="{statcurrentwithmax}" font_size="16"
                                color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1"
@@ -163,7 +163,7 @@
                         <filledsprite name="BarContent" depth="4" pos="66,-10" size="140,24" atlas="uiAtlas" type="filled"
                                       fill="0" color="[hudElementsFood]"/>
                         <texture name="Icon" depth="7" pos="37,-12" size="22,22"
-                                 texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_hunger_icon.png"
+                                 texture="@https://raw.githubusercontent.com/KleinDevDE/7dtd-fpsHUD/master/Textures/survivorHUD_hud_stats_hunger_icon.png"
                                  color="[hudElementsIcon]" foregroundlayer="true"/>
                         <label name="TextContent" depth="7" pos="65,-14" text="{playerfood}" font_size="16"
                                color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1"
@@ -178,7 +178,7 @@
                         <filledsprite name="BarContent" depth="4" pos="66,-10" size="140,24" atlas="uiAtlas" type="filled"
                                       fill="0" color="[hudElementsWater]"/>
                         <texture name="Icon" depth="7" pos="37,-12" size="22,22"
-                                 texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_thirst_icon.png"
+                                 texture="@https://raw.githubusercontent.com/KleinDevDE/7dtd-fpsHUD/master/Textures/survivorHUD_hud_stats_thirst_icon.png"
                                  color="[hudElementsIcon]" foregroundlayer="true"/>
                         <label name="TextContent" depth="7" pos="65,-14" text="{playerwater}" font_size="16"
                                color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1"

@@ -19,7 +19,7 @@
 
 				<label name="stackValue" depth="7" pos="6,-25" size="73,28" text="{itemcount}" font_size="20" color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" justify="center" />
 				<label name="timer" depth="7" pos="35,-38" size="70,24" font_size="22" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" color="[beige]" justify="center" pivot="center" />
-				<texture name="cancel" depth="9" size="40,28" texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_general_cancel_icon.png" color="[hudElementsIcon]" type="sliced" foregroundlayer="true" visible="false"  />
+				<texture name="cancel" depth="9" size="40,28" texture="@https://raw.githubusercontent.com/KleinDevDE/7dtd-fpsHUD/master/Textures/survivorHUD_hud_general_cancel_icon.png" color="[hudElementsIcon]" type="sliced" foregroundlayer="true" visible="false"  />
 				<label name="itemName" depth="12" pos="40,-35" size="0,0" text="" font_size="22" color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" overflow="resizefreely" justify="center" pivot="center" above_soft_cursor="true" />
 
 				<sprite name="assembleIcon" depth="13" pos="19,-19" size="40,40" sprite="{stacklockicon}" visible="{isassemblelocked}" foregroundlayer="true" />
