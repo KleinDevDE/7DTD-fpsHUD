@@ -202,18 +202,18 @@
     <remove xpath="/windows/window[@name='windowToolbelt']"/>
 
     <append xpath="/windows">
-        <window name="windowToolbelt" depth="0" pos="0,70" size="830,215" backgroundcolor="[black]"
+        <window name="windowToolbelt" depth="0" pos="0,70" size="930,215" backgroundcolor="[black]"
                 controller="ToolbeltWindow" visible="{toolbeltvisible}" cursor_area="true">
-            <sprite depth="0" name="background" color="0,0,0,180" pos="-370,36" size="803,95" globalopacitymod="0" type="sliced" />
+            <sprite depth="0" name="background" color="0,0,0,180" pos="-370,36" size="903,95" globalopacitymod="0" type="sliced" />
 
             <rect>
-                <grid name="fpsHUDtoolbelt" depth="1" pos="-368,21" rows="1" cols="10" cell_width="80"
-                      cell_height="70" controller="Toolbelt" repeat_content="true">
+                <grid name="fpsHUDtoolbelt" depth="1" pos="-368,21" rows="1" cols="10" cell_width="90"
+                      cell_height="80" controller="Toolbelt" repeat_content="true">
                     <fpsHUD_toolbelt_interface name="0"/>
                 </grid>
 
-                <grid name="fpsHUDtoolbeltNumbers" depth="1" pos="-332,-43" rows="1" cols="10" cell_width="80"
-                      cell_height="50" repeat_content="false">
+                <grid name="fpsHUDtoolbeltNumbers" depth="1" pos="-332,-43" rows="1" cols="10" cell_width="90"
+                      cell_height="60" repeat_content="false">
                     <label name="fpsHUDtbNumber1" depth="10" size="12,22" text="1" font_size="12" color="white"
                            crispness="Never" effect="outline" effect_distance="1,1" justify="center"/>
                     <label name="fpsHUDtbNumber2" depth="10" size="12,22" text="2" font_size="12" color="white"
