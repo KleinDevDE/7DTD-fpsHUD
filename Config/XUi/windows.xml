@@ -207,7 +207,7 @@
     <append xpath="/windows">
         <window name="windowToolbelt" depth="0" pos="0,70" size="930,215" backgroundcolor="[black]"
                 controller="ToolbeltWindow" visible="{toolbeltvisible}" cursor_area="true">
-            <sprite depth="0" name="background" color="0,0,0,180" pos="-370,36" size="03,95" globalopacitymod="0" type="sliced" />
+            <sprite depth="0" name="background" color="0,0,0,180" pos="-370,36" size="903,95" globalopacitymod="0" type="sliced" />
 
             <rect>
                 <grid name="fpsHUDtoolbelt" depth="1" pos="-368,21" rows="1" cols="10" cell_width="90"
